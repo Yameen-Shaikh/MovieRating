@@ -5,7 +5,7 @@ from sklearn.metrics import mean_absolute_error, r2_score
 from data_preprocessing import preprocess_data
 
 # Load and preprocess the data
-df = pd.read_csv(r"C:\Users\Sumay\Desktop\Yameen\Codesoft\DataScience\IMDb Movies India.csv\IMDb Movies India.csv", encoding='latin1')
+df = pd.read_csv(r"C:\Users\Sumay\Desktop\Yameen\Codesoft\DataScience\Movie rating\IMDb Movies India.csv\IMDb Movies India.csv", encoding='latin1')
 df = preprocess_data(df)
 
 # Select features and target
